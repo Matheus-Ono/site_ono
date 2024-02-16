@@ -1,0 +1,71 @@
+header {
+    background-color:#050c1c;
+    margin: 0 0 0 0;
+    color: rgb(252, 237, 196);
+    height: 250px;
+}
+.navheader{
+    position: absolute;
+    right: 0;
+    top: 130px;
+    margin: 0 300px 0 0;
+}
+.navheader li{
+  display: inline;
+  margin: 0 0 0 15px;
+}
+/*Estilização do menu*/
+.navheader a{
+  color: rgb(252, 237, 196);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+}
+.logo_caixa{
+    width: 940px;
+    margin: 0 0 0 0;
+}
+.logo{
+    width: 30%;
+    margin: -10px 0 -6px 0;
+    
+}
+body{
+    background-color: rgb(252, 237, 196);
+    margin: 0;
+}
+.inicio{
+  width: 100%;
+  margin: 0;
+}
+  /* Estilização para navegadores WebKit (Chrome, Safari) e Blink (Opera) */
+::-webkit-scrollbar {
+    width: 12px; /* Largura da barra de rolagem vertical */
+    margin: 0 0 0 0;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #28649a; /* Cor do "ponteiro" da barra de rolagem */
+    border-radius: 10px; /* Borda arredondada */
+    margin: 0 0 0 0;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #f29e6e; /* Cor da trilha da barra de rolagem */
+    margin: 0 0 0 0;
+  }
+  footer{
+    text-align:center;
+    margin: -5px 0px 0px -100px;
+    background-color: #2b5479;
+    padding: 0 0 0 0;
+    height: 100px;
+    color: #050c1c;
+}
+.copyright{
+  margin: 0 0 0 0;
+  text-align:unset;
+  display: inline-block;
+  padding-top: 45px;
+}
