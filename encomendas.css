@@ -93,3 +93,7 @@ table {
   font-weight: normal;
   padding-top: 45px;
 }
+
+.linhavermelha{
+  color: rgb(200, 0, 0);
+}

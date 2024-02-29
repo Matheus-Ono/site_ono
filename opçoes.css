@@ -62,11 +62,11 @@ hr{ /*Altura*/
 }
 /*Camisteas*/
 .camisetas{
-    margin: 100px 0 0 100px;
+    margin: 0 0 0 100px;
 }
 
 .camisetas img {
-    width: 20%;
+    width: 10%;
     margin: 0;
 }
 
@@ -83,10 +83,10 @@ hr{ /*Altura*/
 
 /*Calças*/
 .calcas{
-    margin: -1280px 0 0 600px;
+    margin: -755px 0 0 450px;
 }
 .calcas img {
-    width: 28%;
+    width: 12.5%;
     margin: 0;
 }
 
