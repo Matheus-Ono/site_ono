@@ -57,3 +57,73 @@ totalElement1.textContent = totalElement1num.toLocaleString('pt-BR', {style: 'cu
 totalElement2.textContent = totalElement2num.toLocaleString('pt-BR', {style: 'currency', currency:'BRL'});
 totalElement3.textContent = totalElement3num.toLocaleString('pt-BR', {style: 'currency', currency:'BRL'});
 totalElement4.textContent = totalElement4num.toLocaleString('pt-BR', {style: 'currency', currency:'BRL'});
+
+--------------------------------------------------------------------------------------
+    // Verifica se o total é maior que 1 ou não é um número
+    function atualizarTotal(cliente, total) {
+        var totalElement = cliente.querySelector(".total");
+    
+        if (total < 1 || isNaN(total)) {
+            totalElement.textContent = 'Qtd Invalida';
+            clientes[count].style.color = 'red';
+        } else {
+            totalElement.textContent = total.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+        }
+       }
+     atualizarTotal(clientes[count], total);
+
+     // Verifica se o Valor unitário é maior que 1 ou não é um número
+     function atualizarVU (cliente, unitario) {
+        var vnElement = cliente.querySelector('.valor-unitário')
+        if (unitario < 1 || isNaN(unitario)) {
+            clientes[count].querySelector(".valor-unitario").textContent = 'Preço Unitário Invalido'
+            clientes[count].querySelector(".valor-unitario").style.color = 'darkred';
+        } else {
+            clientes[count].querySelector(".valor-unitario").textContent = unitario;
+            clientes[count].querySelector(".valor-unitario").textContent = unitario.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+        }
+       }
+       atualizarVU(clientes[count], unitario)
+    
+
+   // Valida o total
+    //if (total < 1 || isNaN(total)) {
+      //  clientes[count].querySelector(".total").textContent = 'Qtd Invalida'
+     //   clientes[count].style.color = 'red';
+   // } else {
+      //  var totalformat = money(total);
+       // clientes[count].querySelector(".total").textContent = totalformat;
+    //}
+
+        // Valida o valor unitario
+    //if (unitario < 1 || isNaN(unitario)) {
+      //  clientes[count].querySelector(".valor-unitario").textContent = 'Preço Incorreto'
+        //clientes[count].querySelector(".valor-unitario").style.color = 'darkred';
+    //} else {
+      //  var unitarioformat = money(unitario)
+//        clientes[count].querySelector(".valor-unitario").textContent = unitarioformat;
+    //}
+  
+//
+
+
+
+
+window
+|
+|
+document
+|        \
+|         \
+|          header
+|            
+body 
+|   \
+|    head
+table
+|
+|
+line
+|
+|
+row
