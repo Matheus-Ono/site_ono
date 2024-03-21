@@ -24,13 +24,47 @@
               <ul>
                   <li><a href="inicio.html">°Inicio</a></li>
                   <li><a href="opçoes.html">°Opções</a></li>
+                  <li><a href="newencomenda.html">°Adicionar Encomendas</a></li>
               </ul>
           </nav>
         </div>
         <h1 class = 'titulo' onclick="this.inner"> Encomendas</h1>
     </header>
     <hr class="hr1"></hr>
-    <table>
+    <br><br><br>
+    
+    <div class = "quadrado" name="frmContato" method="get" target="_blank">
+      <fieldset>
+          <legend>Dados Pessoais</legend>
+          <label for="nomesobrenome">Nome e sobrenome</label><br>
+          <input type="text" id="nomesobrenome" name="" class="input-padrao" required>
+          <br><br><br>
+          
+          <label class = 'prod' for="prod">Produto</label><br>
+          <select for = "prod" id = "incprod">
+            <option>Camiseta Oversized</option>
+            <option>Calça Jeans</option>
+            <option>Boné Fechado Aba Reta</option>
+            <option>Elogio</option>
+            <option>Bermuda Cargo</option>
+        </select>
+          <br><br><br>
+  
+          <label for="valor-unitario">R$ Unitário</label><br>
+          <input type="valor-unitario" id="incunitario" name="" class="input-padrao" required placeholder>
+          <br><br><br>
+  
+          <label for="quantidade">QTDE</label><br>
+          <input type="quantidade" id="incquantidade" name="" class="input-padrao" placeholder>
+          <br><br><br>
+          <input type="submit" value="Enviar formulário" class="enviar" id = "enviar">
+          </label>
+          <br>
+      </fieldset>
+      <br>
+    </div>
+
+    <table id = 'table'>
         <tr>
           <th>Nome</th>
           <th>Produto</th>
@@ -41,22 +75,22 @@
         <tr class="cliente">
           <td class = 'nome'>Matheus</td>
           <td class = 'prod'>Camiseta Oversized</td>
-          <td class = 'quantidade'>0</td>
-          <td class = 'valor-unitario'>0</td>
+          <td class = 'quantidade'>1</td>
+          <td class = 'valor-unitario'>100</td>
           <td class = 'total'></td>
         </tr>
         <tr class="cliente">
           <td class = 'nome'>Lucas Carvalho</td>
           <td class = 'prod'>Calça Jeans</td>
-          <td class = 'quantidade'>3</td>
+          <td class = 'quantidade'>1</td>
           <td class = 'valor-unitario'>300</td>
           <td class = 'total'></td>
         </tr>
         <tr class="cliente">
           <td class = 'nome'>Lucas Dias</td>
           <td class = 'prod'>Boné Fechado Aba Reta</td>
-          <td class = 'quantidade'>1</td>
-          <td class = 'valor-unitario'>200</td>
+          <td class = 'quantidade'>2</td>
+          <td class = 'valor-unitario'>300</td>
           <td class = 'total'></td>
         </tr>
         <tr class="cliente">
@@ -72,6 +106,7 @@
     </footer>
     
     <script src = 'teste.js'></script>
+    <script src = 'incluirpedido.js'></script>
     
 </body>
 

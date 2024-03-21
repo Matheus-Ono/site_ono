@@ -80,6 +80,14 @@ hr{ /*Altura*/
     font-weight: bold;
     font-size: 15px;
 }
+.preco1{
+    color: #2b5479;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+
+}
 
 /*Calças*/
 .calcas{

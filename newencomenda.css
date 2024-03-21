@@ -28,56 +28,40 @@ header {
 }
 .logo{
     width: 30%;
-    margin: -10px 0 -6px 0;
-    
+    margin: -10px 0 -6px 0; 
 }
 body{
     background-color: rgb(252, 237, 196);
     margin: 0;
+    color: #2b5479;
+    font-size: 30px;
+    font-weight: bold;
 }
 hr{ /*Altura*/
-    height: 3px;
-    /*Largura*/
-    width: 90%;
-    color: #28649a;
-    background-color: #28649a
+  height: 3px;
+  /*Largura*/
+  width: 90%;
+  color: #28649a;
+  background-color: #28649a
 }
-.hr1{
-  margin: 200px 0 0 50px;
-}
-table {
-    border-collapse: collapse;
-    width: 95%;
-    margin: 100px 50px 0 50px;
-  }
-
-  th, td {
-    border: 1px solid #28649a;
-    text-align: left;
-    padding: 8px;
-  }
-
-  th {
-    background-color: #28649a;
-    border: 1px solid rgb(252, 237, 196);
-  }
   /* Estilização para navegadores WebKit (Chrome, Safari) e Blink (Opera) */
 ::-webkit-scrollbar {
     width: 12px; /* Largura da barra de rolagem vertical */
     margin: 0 0 0 0;
-  }
+}
   
-  ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
     background-color: #28649a; /* Cor do "ponteiro" da barra de rolagem */
     border-radius: 10px; /* Borda arredondada */
     margin: 0 0 0 0;
-  }
+}
   
-  ::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
     background-color: #f29e6e; /* Cor da trilha da barra de rolagem */
     margin: 0 0 0 0;
-  }
-  footer{
+}
+
+footer{
     text-align:center;
     margin: 700px 0px -10px -100px;
     background-color: #2b5479;
@@ -86,24 +70,10 @@ table {
     color: #050c1c;
 }
 .copyright{
-  margin: 0 0 0 0;
-  text-align:unset;
-  display: inline-block;
-  font-size: 16px;
-  font-weight: normal;
-  padding-top: 45px;
-}
-
-.info-invalida{
-  color: rgb(200, 0, 0);
-}
-
-.input-padrao{
-  display:block;
-  margin: 0 0 20px;
-  padding: 10px 25px;
-  width: 20%;
-}
-.quadrado{
-  background-color: white;
-}
+    margin: 0 0 0 0;
+    text-align:unset;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: normal;
+    padding-top: 45px;
+  }
